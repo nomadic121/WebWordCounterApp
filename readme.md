@@ -13,16 +13,16 @@
 
 Руководство по запуску приложения:
 
-java -jar [jar пакет] -u [ссылка для скачивания] -o [имя сохраняемого фала]
+java -jar [jar пакет] [-u] [ссылка для скачивания] [-o] [имя сохраняемого фала]
 
 где:
     [jar пакет] - полный или относительный путь к запускаемому пакету
-    -u - ключ для указания ссылки для скачивания, после которого указывается сама ссылка
-     [ссылка для скачивания] - ссылка, которую нужно скачать, должна начинатся на "http*"
-    -o - ключ для указания имени сохраняемого фала, после которого указывается само имя сохраняемого фала
-     [имя сохраняемого фала] - имя сохраняемого фала, долно иметь расширение "*.html"
+    [-u] - ключ для указания ссылки для скачивания, после которого указывается сама ссылка
+    [ссылка для скачивания] - ссылка, которую нужно скачать, должна начинатся на "http*"
+    [-o] - ключ для указания имени сохраняемого фала, после которого указывается само имя сохраняемого фала
+    [имя сохраняемого фала] - имя сохраняемого фала, долно иметь расширение "*.html"
 
 примеры:
-java -jar WebWordCounterApp-jar-with-dependencies.jar -u "https://www.simbirsoft.com/" -o "out.html"
+java -jar WebWordCounterApp-jar-with-dependencies.jar -u "https://www.simbirsoft.com/" -o "simbirsoft.html"
 
-java -jar /Users/rustam/java/java_code/simbirsoft/WebWordsCounter/target/WebWordCounterApp-jar-with-dependencies.jar -u "https://www.simbirsoft.com/" -o "/Users/rustam/java/java_code/simbirsoft/WebWordsCounter/out.html"
+java -jar /Users/rustam/java/java_code/simbirsoft/WebWordsCounter/target/WebWordCounterApp-jar-with-dependencies.jar -u "https://www.simbirsoft.com/" -o "/Users/rustam/java/java_code/simbirsoft/WebWordsCounter/simbirsoft.html"
